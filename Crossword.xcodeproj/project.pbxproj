@@ -10,9 +10,17 @@
 		7A27C09629DBC759008393BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C09529DBC759008393BA /* AppDelegate.swift */; };
 		7A27C09829DBC759008393BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C09729DBC759008393BA /* SceneDelegate.swift */; };
 		7A27C09A29DBC759008393BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C09929DBC759008393BA /* ViewController.swift */; };
-		7A27C09D29DBC759008393BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27C09B29DBC759008393BA /* Main.storyboard */; };
 		7A27C09F29DBC75B008393BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A27C09E29DBC75B008393BA /* Assets.xcassets */; };
-		7A27C0A229DBC75B008393BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27C0A029DBC75B008393BA /* LaunchScreen.storyboard */; };
+		7A27C0AC29DC871D008393BA /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C0AB29DC871D008393BA /* KeyboardViewController.swift */; };
+		7A27C0AE29DC8755008393BA /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C0AD29DC8755008393BA /* KeyCell.swift */; };
+		7A27C0B129DCA21E008393BA /* WordGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C0B029DCA21E008393BA /* WordGrid.swift */; };
+		7A27C0B329DCA238008393BA /* crossword.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A27C0B229DCA238008393BA /* crossword.json */; };
+		88D6F09629DBD25E00383924 /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F09529DBD25E00383924 /* GridFlowLayout.swift */; };
+		88D6F09829DBE02C00383924 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F09729DBE02C00383924 /* UIColor+Extension.swift */; };
+		88D6F09A29DBE11700383924 /* ItemDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F09929DBE11700383924 /* ItemDataModel.swift */; };
+		88D6F09C29DBE6EA00383924 /* CharItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F09B29DBE6EA00383924 /* CharItemCell.swift */; };
+		88D6F0A029DBE9AB00383924 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F09F29DBE9AB00383924 /* ContainerView.swift */; };
+		88D6F0A229DBFD1300383924 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6F0A129DBFD1300383924 /* PromptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +28,18 @@
 		7A27C09529DBC759008393BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A27C09729DBC759008393BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A27C09929DBC759008393BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A27C09C29DBC759008393BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A27C09E29DBC75B008393BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A27C0A129DBC75B008393BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A27C0A329DBC75B008393BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A27C0AB29DC871D008393BA /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7A27C0AD29DC8755008393BA /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
+		7A27C0B029DCA21E008393BA /* WordGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGrid.swift; sourceTree = "<group>"; };
+		7A27C0B229DCA238008393BA /* crossword.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = crossword.json; sourceTree = "<group>"; };
+		88D6F09529DBD25E00383924 /* GridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
+		88D6F09729DBE02C00383924 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		88D6F09929DBE11700383924 /* ItemDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataModel.swift; sourceTree = "<group>"; };
+		88D6F09B29DBE6EA00383924 /* CharItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharItemCell.swift; sourceTree = "<group>"; };
+		88D6F09F29DBE9AB00383924 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		88D6F0A129DBFD1300383924 /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		7A27C09429DBC759008393BA /* Crossword */ = {
 			isa = PBXGroup;
 			children = (
+				7A27C0AF29DC96EE008393BA /* Keyboard */,
+				88D6F09429DBD24200383924 /* CollectionView */,
 				7A27C09529DBC759008393BA /* AppDelegate.swift */,
 				7A27C09729DBC759008393BA /* SceneDelegate.swift */,
 				7A27C09929DBC759008393BA /* ViewController.swift */,
-				7A27C09B29DBC759008393BA /* Main.storyboard */,
+				88D6F09729DBE02C00383924 /* UIColor+Extension.swift */,
+				88D6F0A129DBFD1300383924 /* PromptView.swift */,
 				7A27C09E29DBC75B008393BA /* Assets.xcassets */,
-				7A27C0A029DBC75B008393BA /* LaunchScreen.storyboard */,
 				7A27C0A329DBC75B008393BA /* Info.plist */,
+				7A27C0B029DCA21E008393BA /* WordGrid.swift */,
+				7A27C0B229DCA238008393BA /* crossword.json */,
 			);
 			path = Crossword;
+			sourceTree = "<group>";
+		};
+		7A27C0AF29DC96EE008393BA /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A27C0AD29DC8755008393BA /* KeyCell.swift */,
+				7A27C0AB29DC871D008393BA /* KeyboardViewController.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		88D6F09429DBD24200383924 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				88D6F09E29DBE99D00383924 /* ContainerView */,
+				88D6F09D29DBE98F00383924 /* Cell */,
+				88D6F09529DBD25E00383924 /* GridFlowLayout.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		88D6F09D29DBE98F00383924 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				88D6F09929DBE11700383924 /* ItemDataModel.swift */,
+				88D6F09B29DBE6EA00383924 /* CharItemCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		88D6F09E29DBE99D00383924 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				88D6F09F29DBE9AB00383924 /* ContainerView.swift */,
+			);
+			path = ContainerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A27C0A229DBC75B008393BA /* LaunchScreen.storyboard in Resources */,
+				7A27C0B329DCA238008393BA /* crossword.json in Resources */,
 				7A27C09F29DBC75B008393BA /* Assets.xcassets in Resources */,
-				7A27C09D29DBC759008393BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,31 +194,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A27C09A29DBC759008393BA /* ViewController.swift in Sources */,
+				7A27C0AC29DC871D008393BA /* KeyboardViewController.swift in Sources */,
+				88D6F09C29DBE6EA00383924 /* CharItemCell.swift in Sources */,
+				7A27C0AE29DC8755008393BA /* KeyCell.swift in Sources */,
+				88D6F09629DBD25E00383924 /* GridFlowLayout.swift in Sources */,
+				88D6F09829DBE02C00383924 /* UIColor+Extension.swift in Sources */,
 				7A27C09629DBC759008393BA /* AppDelegate.swift in Sources */,
+				7A27C0B129DCA21E008393BA /* WordGrid.swift in Sources */,
+				88D6F09A29DBE11700383924 /* ItemDataModel.swift in Sources */,
+				88D6F0A029DBE9AB00383924 /* ContainerView.swift in Sources */,
+				88D6F0A229DBFD1300383924 /* PromptView.swift in Sources */,
 				7A27C09829DBC759008393BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7A27C09B29DBC759008393BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A27C09C29DBC759008393BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A27C0A029DBC75B008393BA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A27C0A129DBC75B008393BA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7A27C0A429DBC75B008393BA /* Debug */ = {
@@ -292,9 +337,7 @@
 				INFOPLIST_FILE = Crossword/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +363,7 @@
 				INFOPLIST_FILE = Crossword/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

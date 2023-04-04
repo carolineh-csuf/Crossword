@@ -1,0 +1,269 @@
+[
+    {
+        "index": "1",
+        "text": "BURSTOPEN",
+        "clue": "Explode(1 wds.)",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":0, "y":2},
+            {"x":1, "y":2},
+            {"x":2, "y":2},
+            {"x":3, "y":2},
+            {"x":4, "y":2},
+            {"x":5, "y":2},
+            {"x":5, "y":2},
+            {"x":7, "y":2},
+            {"x":8, "y":2}
+        ]
+    },
+    {
+        "index": "2",
+        "text": "ERIK",
+        "clue": "The phantom in "The phantom of the Opera"",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":0, "y":3},
+            {"x":1, "y":3},
+            {"x":2, "y":3},
+            {"x":3, "y":3}
+        ]
+    },
+    {
+        "index": "3",
+        "text": "BAR",
+        "clue": "Supporter",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":0, "y":4},
+            {"x":1, "y":4},
+            {"x":2, "y":4}
+        ]
+    },
+    {
+        "index": "4",
+        "text": "OINK",
+        "clue": "Sound from a sty",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":0, "y":5},
+            {"x":1, "y":5},
+            {"x":2, "y":5},
+            {"x":3, "y":5}
+        ]
+    },
+    {
+        "index": "5",
+        "text": "PEDOMETER",
+        "clue": "It may keep your pace",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":0, "y":6},
+            {"x":1, "y":6},
+            {"x":2, "y":6},
+            {"x":3, "y":6},
+            {"x":4, "y":6},
+            {"x":5, "y":6},
+            {"x":6, "y":6},
+            {"x":7, "y":6},
+            {"x":8, "y":6}
+        ]
+    },
+    {
+        "index": "6",
+        "text": "HURRIED",
+        "clue": "Made haste",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":1, "y":1},
+            {"x":1, "y":2},
+            {"x":1, "y":3},
+            {"x":1, "y":4},
+            {"x":1, "y":5},
+            {"x":1, "y":6},
+            {"x":1, "y":7}
+        ]
+    },
+    {
+        "index": "7",
+        "text": "DEBASED",
+        "clue": "Humiliated",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":1, "y":7},
+            {"x":2, "y":7},
+            {"x":3, "y":7},
+            {"x":4, "y":7},
+            {"x":5, "y":7},
+            {"x":6, "y":7},
+            {"x":7, "y":7}
+        ]
+    },
+    {
+        "index": "8",
+        "text": "CORIANDER",
+        "clue": "Herb also known as cilantro",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":2, "y":0},
+            {"x":2, "y":1},
+            {"x":2, "y":2},
+            {"x":2, "y":3},
+            {"x":2, "y":4},
+            {"x":2, "y":5},
+            {"x":2, "y":6},
+            {"x":2, "y":7},
+            {"x":2, "y":8}
+        ]
+    },
+    {
+        "index": "9",
+        "text": "REDID",
+        "clue": "Took a mulligan, maybe",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":2, "y":8},
+            {"x":3, "y":8},
+            {"x":4, "y":8},
+            {"x":5, "y":8},
+            {"x":6, "y":8}
+        ]
+    },
+    {
+        "index": "10",
+        "text": "HUSK",
+        "clue": "Tamale wrapper",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":3, "y":0},
+            {"x":3, "y":1},
+            {"x":3, "y":2},
+            {"x":3, "y":3}
+        ]
+    },
+    {
+        "index": "11",
+        "text": "KOBE",
+        "clue": "Expensive cut of beef",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":3, "y":5},
+            {"x":3, "y":6},
+            {"x":3, "y":7},
+            {"x":3, "y":8}
+        ]
+    },
+    {
+        "index": "12",
+        "text": "ANT",
+        "clue": "Any member of the family Formicidae",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":4, "y":0},
+            {"x":4, "y":1},
+            {"x":4, "y":2}
+        ]
+    },
+    {
+        "index": "13",
+        "text": "MAD",
+        "clue": "_Magazine",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":4, "y":6},
+            {"x":4, "y":7},
+            {"x":4, "y":8}
+        ]
+    },
+    {
+        "index": "14",
+        "text": "ODOR",
+        "clue": "Stink",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":5, "y":0},
+            {"x":5, "y":1},
+            {"x":5, "y":2},
+            {"x":5, "y":3}
+        ]
+    },
+    {
+        "index": "15",
+        "text": "RAVE",
+        "clue": "Party hard",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":5, "y":3},
+            {"x":6, "y":3},
+            {"x":7, "y":3},
+            {"x":8, "y":3}
+        ]
+    },
+    {
+        "index": "16",
+        "text": "DESI",
+        "clue": "Member of a south Asian diaspora",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":5, "y":5},
+            {"x":5, "y":6},
+            {"x":5, "y":7},
+            {"x":5, "y":8}
+        ]
+    },
+    {
+        "index": "17",
+        "text": "SEPARATED",
+        "clue": "Parted ways",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":6, "y":0},
+            {"x":6, "y":1},
+            {"x":6, "y":2},
+            {"x":6, "y":3},
+            {"x":6, "y":4},
+            {"x":6, "y":5},
+            {"x":6, "y":6},
+            {"x":6, "y":7},
+            {"x":6, "y":8}
+        ]
+    },
+    {
+        "index": "18",
+        "text": "ROW",
+        "clue": "One of nine in this puzzle",
+        "placement": "upDown",
+        "coordinate": [
+            {"x":6, "y":4},
+            {"x":7, "y":4},
+            {"x":8, "y":4}
+        ]
+    },
+    {
+        "index": "19",
+        "text": "DEVOTED",
+        "clue": "Affectionate",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":7, "y":1},
+            {"x":7, "y":2},
+            {"x":7, "y":3},
+            {"x":7, "y":4},
+            {"x":7, "y":5},
+            {"x":7, "y":6},
+            {"x":7, "y":7}
+        ]
+    },
+    {
+        "index": "20",
+        "text": "NEWER",
+        "clue": "More recent",
+        "placement": "leftRight",
+        "coordinate": [
+            {"x":8, "y":2},
+            {"x":8, "y":3},
+            {"x":8, "y":4},
+            {"x":8, "y":5},
+            {"x":8, "y":6}
+        ]
+    },
+]
